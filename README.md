@@ -1,2 +1,2 @@
 # CFamino
-A C and C++ IDE written in C#
+A C/C++ IDE for windows.
