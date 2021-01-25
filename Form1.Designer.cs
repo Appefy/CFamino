@@ -6,8 +6,6 @@ namespace CFamino
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
-
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
@@ -53,7 +51,6 @@ namespace CFamino
             this.GCode.SuspendLayout();
             this.GOutput.SuspendLayout();
             this.GInput.SuspendLayout();
-            this.SuspendLayout();
             // 
             // menuStrip1
             // 
@@ -250,27 +247,6 @@ namespace CFamino
         }
 
         #endregion
-
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem saveAsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem buildToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem compileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem runToolStripMenuItem;
-        private System.Windows.Forms.GroupBox GCode;
-        private System.Windows.Forms.GroupBox GOutput;
-        private System.Windows.Forms.GroupBox GInput;
-        private System.Windows.Forms.RichTextBox code;
-        private System.Windows.Forms.RichTextBox output;
-        private System.Windows.Forms.RichTextBox input;
-        private System.Windows.Forms.OpenFileDialog open;
-        private System.Windows.Forms.SaveFileDialog save;
-        private System.Windows.Forms.ToolStripMenuItem buildPathToolStripMenuItem;
-        private System.Windows.Forms.FolderBrowserDialog set_compiler;
     }
 }
 
