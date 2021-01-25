@@ -8,3 +8,13 @@ C:\Users\Prithwiraj Samanta\Documents\CFamino\obj\Debug\CFamino.csproj.GenerateR
 C:\Users\Prithwiraj Samanta\Documents\CFamino\obj\Debug\CFamino.csproj.CoreCompileInputs.cache
 C:\Users\Prithwiraj Samanta\Documents\CFamino\obj\Debug\CFamino.exe
 C:\Users\Prithwiraj Samanta\Documents\CFamino\obj\Debug\CFamino.pdb
+C:\Users\Prithwiraj Samanta\Documents\GitHub\CFamino\obj\Debug\CFamino.csprojAssemblyReference.cache
+C:\Users\Prithwiraj Samanta\Documents\GitHub\CFamino\obj\Debug\CFamino.Form1.resources
+C:\Users\Prithwiraj Samanta\Documents\GitHub\CFamino\obj\Debug\CFamino.Properties.Resources.resources
+C:\Users\Prithwiraj Samanta\Documents\GitHub\CFamino\obj\Debug\CFamino.csproj.GenerateResource.cache
+C:\Users\Prithwiraj Samanta\Documents\GitHub\CFamino\obj\Debug\CFamino.csproj.CoreCompileInputs.cache
+C:\Users\Prithwiraj Samanta\Documents\GitHub\CFamino\obj\Debug\CFamino.exe
+C:\Users\Prithwiraj Samanta\Documents\GitHub\CFamino\obj\Debug\CFamino.pdb
+C:\Users\Prithwiraj Samanta\Documents\GitHub\CFamino\bin\Debug\CFamino.exe.config
+C:\Users\Prithwiraj Samanta\Documents\GitHub\CFamino\bin\Debug\CFamino.exe
+C:\Users\Prithwiraj Samanta\Documents\GitHub\CFamino\bin\Debug\CFamino.pdb
