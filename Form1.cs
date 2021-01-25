@@ -84,8 +84,6 @@ namespace CFamino
 
         private void save_FileOk(object sender, CancelEventArgs e)
         {
-            if (this.curfile.Equals("empty"))
-                this.code.Text = "";
             File.Create(this.save.FileName).Close();
             string fileName = this.save.FileName;
             this.GCode.Text = fileName.Substring(fileName.LastIndexOf('\\')).TrimStart('\\');
@@ -127,6 +125,11 @@ namespace CFamino
 
         private void compileToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if(this.curfile.Equals("empty"))
+            {
+                this.output.Text = "Add a file to compile";
+                return;
+            }
             if (this.compile_path.Equals("empty"))
             {
                 if (this.set_compiler.ShowDialog() == DialogResult.OK)
@@ -176,9 +179,9 @@ namespace CFamino
             StreamReader standardError = process.StandardError;
             string str1 = "";
             string str2 = "";
-            standardInput.WriteLine("cd " + this.compile_path);
+            standardInput.WriteLine("cd " + "\"" + this.compile_path + "\"");
             string str3 = !(this.curfile.Substring(this.curfile.LastIndexOf('.')) == ".cpp") ? "gcc -w " : "g++ -w ";
-            standardInput.WriteLine(str3 + this.curpath + " -o " + this.curpath.Substring(0, this.curpath.LastIndexOf('\\')) + "\\" + this.curfile.Substring(0, this.curfile.LastIndexOf('.')));
+            standardInput.WriteLine(str3 + "\"" + this.curpath + "\"" + " -o " + "\"" + this.curpath.Substring(0, this.curpath.LastIndexOf('\\')) + "\\" + this.curfile.Substring(0, this.curfile.LastIndexOf('.')) + "\"");
             standardInput.Flush();
             standardInput.Close();
             string str4;
@@ -205,7 +208,7 @@ namespace CFamino
             {
                 this.output.Text = "";
                 Process process = new Process();
-                process.StartInfo.FileName = this.curpath.Substring(0, this.curpath.LastIndexOf('\\')) + "\\" + this.curfile.Substring(0, this.curfile.LastIndexOf('.')) + ".exe";
+                process.StartInfo.FileName = "\"" + this.curpath.Substring(0, this.curpath.LastIndexOf('\\')) + "\\" + this.curfile.Substring(0, this.curfile.LastIndexOf('.')) + ".exe" + "\"";
                 process.StartInfo.Arguments = "";
                 process.StartInfo.RedirectStandardInput = true;
                 process.StartInfo.RedirectStandardOutput = true;
