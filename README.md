@@ -3,6 +3,12 @@ A C/C++ IDE for windows.
 
 ### Extract MinGW Compiler to C:\
 
+![1](https://github.com/prskid1000/CFamino/blob/master/Preview/1.png?raw=true)
+
+![2](https://github.com/prskid1000/CFamino/blob/master/Preview/2.png?raw=true)
+
+![3](https://github.com/prskid1000/CFamino/blob/master/Preview/3.png?raw=true)
+
 ## Status
 Repository status([badge](https://img.shields.io/badge/)):
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
